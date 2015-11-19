@@ -1,0 +1,17 @@
+# Host to backup to
+host="192.168.1.2"
+
+# User to connect with to the host
+user="someone"
+
+# All sources which need to be copied
+sources=(/Users/someone/Pictures /Users/someone/Movies /Users/someone/Documents)
+
+# Destination folder to which sources are copied to
+dest_base="/var/backup/someone/macbook/"
+
+# All files in the list below will be skipped
+excludes_list="/Users/someone/.backup/backup_excludes.lst"
+
+# Location of backup log
+backup_log="/Users/someone/.backup/backup.log"
